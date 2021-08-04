@@ -1,0 +1,83 @@
+/*Your CSS SHould go here*/
+/* Borrow some styles from w3*/
+body {
+    font-family: arial, Helvetica, "Times New Roman", sans-serif; 
+    background: wheat;
+    font-size: 100%;					  
+}
+
+h1 {
+    font-size: 40px;
+    background-color: wheat;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: wheat;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: #FB966E;
+}
+
+ul li {
+    background-color: wheat;
+    font-size: 20px;
+    color: #FB966E;
+    margin: 5px;
+}
+
+table {
+    background-color: #f7e8aa; 
+	border-collapse: separate; 
+	border-style: groove; /* try solid, dashed, groove, ridge, inset, outset */ 
+	border-color: #fa7e23;
+	border-width: 100%;
+	text-align: center; 
+}
+
+td {
+    color: #f86b1d;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+p {
+    color: #5c3719;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.highlight {
+    color: #873d24;
+    text-align: left;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    color: #4d4030;
+    font-style: italic;
+}
+
+#pic {
+    color:#66c18c;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+#iframe {
+    color: #43b244;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+#generalInfo {
+    color: #41ae3c;
+    font-size: 30px;
+    font-style: oblique;
+}

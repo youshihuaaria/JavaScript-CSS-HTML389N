@@ -1,0 +1,57 @@
+/* place your css style definitions here 
+ Here is a link to a great reference for learning and 
+ experimenting with css:
+https://www.w3schools.com/css/default.asp
+*/
+h1 {
+    text-shadow: 1px 1px;
+}
+
+legend {
+    color: #A0522D;
+}
+
+#firstname {
+    margin-right: 1cm;
+}
+
+#lastname {
+    margin-right: 1cm;
+}
+
+#phoneThirdPart {
+    margin-right: 1cm;
+    width: 3cm;
+}
+
+#age {
+    margin-right: 1cm;
+}
+
+#Inches {
+    margin-right: 1cm;
+}
+
+#assignID {
+    margin-left: 1cm;
+}
+
+#phoneFirstPart {
+    width: 1.5cm;
+}
+
+#phoneSecondPart {
+    width: 1.5cm;
+}
+
+#firstFourDigits {
+    width: 2cm;
+}
+
+#secondFourDigits {
+    width: 2cm;
+}
+
+fieldset {
+    border-radius: 5px;
+}
