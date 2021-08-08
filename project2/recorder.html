@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Canvas Recording Application</title>
+    <script src="recorder.js"></script>
+    <link rel="stylesheet" href="recorder.css">
+</head>
+
+<body>
+    <h1>Welcome to Canvas</h1>
+    <p>Click and Drag anywhere in the box below to draw. You can even change the color of your brush using any hex
+        color.</p><br>
+    <h2>Recording Instruction</h2>
+    <ol>
+        <li>Click 'Start Recording'</li>
+        <li>Draw whatever you want (you can change color too)</li>
+        <li>When done, click 'Stop Recording'</li>
+        <li>Watch your recording by clicking 'Play'</li>
+        <li>Or save it by clicking 'Save Recording'</li>
+    </ol>
+    <canvas id="canvas" width="1500" height="500"></canvas><br>
+
+    <div class="drawOperation">
+    <label>Change Color: </label><br>
+    <select id="color">
+        <option value="red">red</option>
+        <option value="orange">orange</option> <!-- default selection -->
+        <option value="yellow">yellow</option>
+        <option value="green">green</option> <!-- default selection -->
+        <option value="blue">blue</option>
+        <option value="pink">pink</option>
+        <option value="purple">purple</option>
+        <option value="black" selected = "selected">black</option>
+        <option value="brown">brown</option>
+    </select>
+    <input type="button" id="changecolor" value="Change" /><br>
+    <label>Stroke: </label><br>
+    <input type="range" id="stroke" min="1" max="30" value="5"> <br>
+    <label>Eraser: </label>
+    <button type="button" id="erase">Erase</button>
+    <label>Pen: </label>
+    <button type="button" id="pen">Pen</button><br>
+    </div>
+
+    <div class="operation">
+        <button type="button" id="start">Start Recording</button>
+        <button type="button" id="stop">Stop Recording</button>
+        <button type="button" id="play">Play</button>
+        <button type="button" id="save">Save Recording</button>
+        <button type="button" id="retrieve">Retrieve Recording</button>
+        <button type="button" id="clear">Clear Canvas</button><br>
+    </div>
+
+
+</body>
+
+</html>
